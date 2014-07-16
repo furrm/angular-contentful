@@ -73,7 +73,7 @@ angular.module('app-controllers', [
 
             // todo: break up the following url into manageable chunks.
 //            var url = "https://be.contentful.com/oauth/authorize?response_type=token&client_id=6f4a0ec6ecc6c8d3f44e768503c70f71080b1bd1d1d7bcfb195f0fdabf6d9752&redirect_uri=http://localhost/~furrm/angular-contentful-management/auth.html&scope=content_management_manage";
-            var url = "https://be.contentful.com/oauth/authorize?response_type=token&client_id=1aa879a4ba56af0c3de77ff4875dd50fdc55a2c6359817d8c6aed99b94302039&redirect_uri=http://angular-contentful-management.azurewebsites.net/app.html&scope=content_management_manage";
+            var url = "https://be.contentful.com/oauth/authorize?response_type=token&client_id=1aa879a4ba56af0c3de77ff4875dd50fdc55a2c6359817d8c6aed99b94302039&redirect_uri=http://angular-contentful-management.azurewebsites.net/app/auth.html&scope=content_management_manage";
             window.location.assign(url);
 
         };
